@@ -126,7 +126,7 @@ function Users() {
       </form>
       <div className="footer">
         <marquee behavior="alternate">
-          ! Use Enter key to add new users :D
+          Hurray! You can add new users with Enter :D
         </marquee>
       </div>
     </div>
