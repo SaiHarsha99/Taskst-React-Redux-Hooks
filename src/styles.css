@@ -1,0 +1,92 @@
+body {
+  background: #eee;
+  margin: 20px;
+  padding-top: 10px;
+  font-family: tahoma;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+.date {
+  margin-right: 100px;
+  font-family: Courier New;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.project-tab {
+  padding-top: 15px;
+}
+
+.project-tab .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: #7f4cc1;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.project-tab .nav-link:active {
+  color: black;
+}
+
+.delete {
+  color: black;
+  font-weight: bolder;
+}
+
+.btn-sm {
+  font-size: 14px;
+}
+
+#todo-wrapper {
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #fff;
+  border-top: 3px solid #7f4cc1;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#todo-wrapper p {
+  color: #777;
+  font-family: tahoma;
+  font-style: italic;
+}
+
+#todo-list ul {
+  list-style-type: none;
+  padding: 0;
+  width: 42rem;
+}
+
+/* todoItem.css */
+
+.todo-item {
+  padding: 16px 5px;
+  border-bottom: 1px dashed #bbb;
+  display: flex;
+}
+
+.todo-item:hover {
+  background: #eee;
+}
+
+.item-name {
+  flex-basis: 0;
+  flex-grow: 9;
+  font-size: 25px;
+  font-family: Courier New;
+  text-transform: capitalize;
+}
+
+.checkItem {
+  text-decoration: line-through;
+}
