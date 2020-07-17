@@ -3,9 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import store from "./Store";
 import { Provider } from "react-redux";
-
 import Todo from "../src/components/todo";
-
 import Users from "./components/Users";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
